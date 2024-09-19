@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="style.css">
   <title>Prajwal Prakash</title>
   <link rel="website icon" type="png"
-  href="./image/P.png">
+  href="image/P.png">
 </head>
+
+ <!-- Animated Background -->
+ <div class="animated-background"></div>
 
 <body>
   <!-- Header -->
@@ -39,6 +42,10 @@
 
   <!-- Hero Section  -->
   <section id="hero">
+    <video autoplay muted loop id="background-video">
+      <source src="./video/keyboard video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
     <div class="hero container">
       <div>
         <h1>Hello, <span></span></h1>
@@ -58,21 +65,60 @@
         <h1 class="section-title">Recent <span>Projects</span></h1>
       </div>
       <div class="all-projects">
+  
+        <!-- Project 1: WEATHER WEBSITE -->
         <div class="project-item">
           <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>Coding is Love</h2>
-            <p>working on it </p>
+            <h1>WEATHER WEBSITE</h1>
+            <h2>This provides real-time weather updates, displaying crucial weather information such as temperature, humidity, pressure, and more.</h2>
+            <a href="https://github.com/Prajwal844/weather-website" class="cta">CODE</a>
           </div>
           <div class="project-img">
-            <img src="./image/img-1.jpg" alt="img">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img src="./image/WEATHER WEBSITE.png" alt="Image" class="fit-image">
+              </div>
+            </div>
           </div>
         </div>
-       
-        
+  
+        <!-- Project 2: E-COMMERCE WEBSITE -->
+        <div class="project-item">
+          <div class="project-info">
+            <h1>NETFLIX CLONE</h1>
+            <h2>built a Netflix homepage using HTML, CSS, and JavaScript! This project was an incredible opportunity to apply and enhance my web development skills..</h2>
+            <a href="https://github.com/Prajwal844/netflix-homepage" class="cta">CODE</a>
+          </div>
+          <div class="project-img">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img src="./image/NETFLIXX.png" alt="Image" class="fit-image">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 3: PORTFOLIO WEBSITE -->
+        <div class="project-item">
+          <div class="project-info">
+            <h1>PORTFOLIO WEBSITE</h1>
+            <h2>A personal portfolio website showcasing various projects, skills, and experiences. It includes a contact form and downloadable CV.</h2>
+            <a href="https://github.com/Prajwal844/my_website" class="cta">CODE</a>
+          </div>
+          <div class="project-img">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img src="./image/PORTFOLIO.png" alt="Image" class="fit-image">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
       </div>
     </div>
   </section>
+  
   <!-- End Projects Section -->
 
   <!-- About Section -->
@@ -80,15 +126,15 @@
     <div class="about container">
       <div class="col-left">
         <div class="about-img">
-          <img src="./image/55.png" alt="img">
+          <img src="./image/PHOTO.png" alt="img">
         </div>
       </div>
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>Front End Developer</h2>
-        <p>Namaste! I'm, Prajwal Prakash, I'm a full stack developer currently studying computer science and engineering. I love technology and programming. In my free time I either work on my projects or do an online course because I also love to learn new stuff.
+        <p>Namaste! I'm, Prajwal Prakash, I'm a front End developer currently studying computer science and engineering. I love technology and programming. In my free time I either work on my projects or do an online course because I also love to learn new stuff.
           All my projects started either with others wanting something I did or me helping non-developers get features they wanted without coding themselves.
-          I’ve also completed several courses. These courses helped me in learning new languages and things I had no idea about before.
+          I’ve also completed several courses, including but not limited to - CS50, CS50w, Google’s crash course on python, Google IT support specialization, etc. These courses helped me in learning new languages and things I had no idea about before.
           I like to work with others in accomplishing a common goal and I also love to help newcomers and share my knowledge.
           My goal is to keep contributing to meaningful projects, to give back to the community by sharing my knowledge.
           I code because I love to.</p>
@@ -148,10 +194,6 @@
         <div class="social-item">
           <a href="https://www.linkedin.com/in/prajwalprakash844/"><img src="https://img.icons8.com/bubbles/50/null/linkedin.png"/></a>
         </div>
-        <div class="social-item">
-          <a href="https://github.com/Prajwal844"><img src="https://img.icons8.com/bubbles/50/null/github.png"/></a>
-        </div>
-        
         
       </div>
       <p>Copyright © 2023 Prajwal. All rights reserved</p>
